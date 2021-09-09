@@ -66,17 +66,9 @@ figure{
   height: auto;
   position: absolute;
   z-index: 1;
-
-
-.image-header2 { 
-  display: block;
-  width: auto;
-  height: auto;
-  position: absolute;
-  z-index: 1;
-  transform: (-50% -50%);
-
 }
+
+
 
 .image1{
   margin-right: auto;
@@ -101,7 +93,6 @@ figure{
 
   /* Button Styles */
   
-
   .button-1 {
     border: none;
     background-color:cornflowerblue;
