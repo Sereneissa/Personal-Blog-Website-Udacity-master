@@ -52,24 +52,29 @@ figure{
 }
 
  figcaption {
-  background: rgba(0, 0, 0, 0.5);
   color: grey;
   font-style: italic;
   position: absolute;
   align-self: flex-end;
-  bottom: 0;
+  bottom: 5;
   left: 0;
   right: 0;
 }
 
-img{
-  display: block;
+.image-header{
   width: auto;
   height: auto;
   position: absolute;
   z-index: 1;
 
-  
+
+.image-header2 { 
+  display: block;
+  width: auto;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+  transform: (-50% -50%);
 
 }
 
@@ -92,8 +97,6 @@ img{
   width: 250px;
 
 }
-
-
 
 
   /* Button Styles */
