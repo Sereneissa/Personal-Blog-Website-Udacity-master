@@ -62,7 +62,7 @@ figure{
 }
 
 .image-header{
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   position: absolute;
   z-index: 1;
@@ -75,22 +75,20 @@ figure{
 
 .image1{
   margin-right: auto;
-  position: absolute;
-  width: 250px;
-
+  position: relative;
+  max-width: 100%;
 }
 
 .image2{
   margin-right: auto;
-  height: auto;
-  position: absolute;
-  width: 250px;
+  position: relative;
+  max-width: 100%;
 }
 
 .image3{
   margin-right: auto;
-  position: absolute;
-  width: 250px;
+  position: relative;
+  max-width: 100%;
 
 }
 
