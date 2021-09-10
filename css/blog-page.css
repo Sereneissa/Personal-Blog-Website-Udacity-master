@@ -25,6 +25,7 @@
   
   .blog-page {
     padding: 5rem 0;
+
     
   }
   
@@ -38,7 +39,7 @@
   
   .grid-inner-container {
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     grid-gap: 3px;
     border: 1px solid #333;
@@ -50,11 +51,13 @@
   .grid-inner-container .box {
     text-align: center;
     justify-content: center;
+
   }
   
   .grid-inner-container .box > i {
     margin-top: 2rem;
     color: var(--primary-color);
+
   }
   
   

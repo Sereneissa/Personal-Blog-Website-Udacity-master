@@ -2,7 +2,7 @@
 
 /* Featured Post Section */
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width:100%) {
     .cards {
       display: grid;
       grid-template-columns: 1fr;
@@ -16,7 +16,7 @@
   
     /* Blog Page */
   
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width:100%){
       .blog-page {
         padding-bottom: 0;
       }
@@ -33,7 +33,7 @@
       }
   
       .grid-inner-container .box > img {
-        max-width: 150px;
+        max-width: 100%;
         opacity: 0.9;
         border: none;
         border-radius: 10px;
